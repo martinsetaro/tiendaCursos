@@ -30,7 +30,7 @@ function agregarCurso(e){
     e.preventDefault();
 if(e.target.classList.contains('agregar-carrito')){
     const cursoSeleccionado = e.target.parentElement.parentElement
- 
+ Swal.fire('Curso Agregado a carrito!!')
  leerDatosCurso(cursoSeleccionado)
 }
 }
